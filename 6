@@ -1,0 +1,39 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a
+		inteiro b
+		inteiro c
+		inteiro d
+
+		escreva("Me diga dois numers: ")
+		leia(a,b,c,d)
+
+		se(a > b e a > c e a > d)
+		{
+			escreva(a , " e mairo ")
+		}senao
+		{
+			se(b > a e b > c e b > d)
+			{
+				escreva(b ," e mairo ")
+			}senao
+			{
+				se(c > a e c > b e c > d){
+					escreva(c ," e mairo ")
+				}senao
+				{
+					se(d > a e d > b e d > c){
+						escreva(d ," e mairo ")
+					}senao{
+						se(a == b e a == c e a == d){
+							escreva("sao todos iguais")
+						}
+					}
+				}
+			}
+		}
+	}
+}
